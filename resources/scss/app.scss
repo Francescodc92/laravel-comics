@@ -1,21 +1,46 @@
 @import "~bootstrap/scss/bootstrap";
 
-body{
-  background-color: red;
-}
-
-
-
-.gatto {
-  width: 300px;
+.header-bottom{
   height: 300px;
-  background-image: url('../img/gatto.jpg');
+  background-image: url('../img/jumbotron.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+  min-height: 60vh;
+  background-color: #1C1C1C;
+}
+
+.card {
+  height: 100%;
+  img{
+    max-height: 300px;
+    object-fit: cover;
+  }
+}
+
+footer{
+  background-color: #303030;
+  padding: 30px 0;
+  .social-link{
+    width: 40px;
+    height: 40px;
+    background-color:#797979 ;
+    border: 2px solid transparent;
+    transition: border-color 200ms ease-in-out;
+    cursor: pointer;
+    &:hover{
+      border-color: #fff;
+    }
+    a{
+      color:  #303030;
+      padding: 20px;
+    }
+  }
 }
 
 
-//es di un immagine presa dalla compilazione di vite  
-//body {
-//   background-image: url('../img/node della foto');
-// }
 
 
