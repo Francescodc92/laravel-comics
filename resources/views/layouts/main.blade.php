@@ -16,9 +16,7 @@
         @include('partials.header')
 
         <main>
-            <div class="container">
                 @yield('main-content')
-            </div>
         </main>
 
         @include('partials.footer')
