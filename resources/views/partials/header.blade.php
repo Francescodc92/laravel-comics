@@ -13,7 +13,11 @@
                       <a class="nav-link text-uppercase active" aria-current="page"  href="{{ route('home') }}">Home Page</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-uppercase" href="#">contatti</a>
+                      <a 
+                        class="nav-link text-uppercase"     href="{{ route('contact') }}"
+                      >
+                        contatti
+                      </a>
                     </li>
                   </ul>
             </div>

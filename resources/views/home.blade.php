@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('page-title')
+home
+@endsection
+
 @section('main-content')
 <div class="container text-white py-3">
     <h2 class="text-primary text-uppercase pb-3">lista articoli</h2>

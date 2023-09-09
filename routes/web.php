@@ -25,4 +25,4 @@ Route::get('/', function () {
 
 Route::get('/contatti', function () {
     return view('contact');
-});
+})->name('contact');
