@@ -1,8 +1,6 @@
 @extends('layouts.main')
 
-@section('page-title')
-home
-@endsection
+@section('page-title', 'Home')
 
 @section('main-content')
 <div class="container text-white py-3">

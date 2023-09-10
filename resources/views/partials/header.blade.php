@@ -10,11 +10,17 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="nav nav-underline">
                     <li class="nav-item">
-                      <a class="nav-link text-uppercase active" aria-current="page"  href="{{ route('home') }}">Home Page</a>
+                      <a 
+                      class="nav-link text-uppercase active"
+                      aria-current="page"  
+                      href="{{ route('home') }}">
+                        Home Page
+                      </a>
                     </li>
                     <li class="nav-item">
                       <a 
-                        class="nav-link text-uppercase"     href="{{ route('contact') }}"
+                        class="nav-link text-uppercase"
+                        href="{{ route('contact') }}"
                       >
                         contatti
                       </a>

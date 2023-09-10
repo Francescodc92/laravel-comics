@@ -1,12 +1,10 @@
 @extends('layouts.main')
 
-@section('page-title')
-Contatti
-@endsection
+@section('page-title','Contatti')
 
 @section('main-content')
 <div class="bg-contact">
-  <div class="container py-5 d-flex gap-5"> 
+  <div class="container py-5 d-flex flex-column align-item-center flex-md-row align-md-content-initial gap-5"> 
     <div class="contact-left text-white">
       <h2 class="text-white text-uppercase">contatti</h2>
       <h3>
@@ -22,7 +20,7 @@ Contatti
         <span class="text-light fw-bold">3333334452</span> 
       </p>
     </div>
-    <div class="contact-right w-50">
+    <div class="contact-right w-md-50">
       <h3 class="text-white">Oppure contattaci tramite il seguente form</h3>
       <form class="text-white ">
         <div class="mb-3">
